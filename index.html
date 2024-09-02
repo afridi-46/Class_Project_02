@@ -1,0 +1,254 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My API Store</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet"/>
+
+<link rel="stylesheet" href=https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css"">
+
+
+   <script
+    src="http://kit.fontawesome.com/946cabd75f.js"
+    crossorigin="anonymous">
+   </script>
+</head>
+<body>
+    <header>
+        <h1>My API Store</h1>
+        <button class="btn">Sign Up</button>
+    </header>
+
+    <main>
+        <!--highlights section-->
+        <section id = "highlights-section">
+            <h2>Apple Store in Bangladesh</h2>
+            <p>
+                There are many variation of Apple devies are available. My API Store offers a wide range of products is available in our store. We also deliver Apple products through the online Apple Store in whole Bangladesh.
+            </p>
+            <div id="buy-now-button">
+                <button class="btn">Buy Now</button>
+            </div>
+        </section>
+
+        <!-- cover image section  -->
+         <section id="cover-image-section">
+            <img src="./assets/cover image11.png" alt="iPhone-image" />
+         </section>
+
+         <!-- search section  -->
+          <section id="search-section">
+            <h2>Search Your Phone</h2>
+
+
+            <div id="search-container">
+                <div id="search-bar">
+                    <i class="fa fa-solid fa-magnifying-glass"></i>
+                    <input 
+                     id="search-input-field"
+                     type="text" 
+                     placeholder="Search Your Phone" 
+                     />
+                </div>
+
+                <div id="search-button">
+                  <button onclick="handleSearch()" class="btn">Search</button>      
+                </div>
+
+            </div>
+
+          </section>
+
+          <section id="loading-section">
+            <!-- This is the loading animation -->
+            <div id="loader-animation" class="loader hidden"></div>
+          </section>
+
+            <!-- card section -->
+             <section id="card-section">
+                <!-- card -->
+                <div class="card">
+                    <div class="card-image">
+                        <img src="./assets/iPhone.jpg" alt="iphone-image">
+
+                    </div>
+
+                    <h3 class="card-title">iPhone 15 Pro Max</h3>
+                    <p class="card-description">
+                        there ara many variations of passages of avialable, but the majority have suffered.   
+                    </p>
+
+                    <div class="card-price">
+                        <span>$</span>
+                        <span id="card-item-price">999</span>
+                    </div>
+                        <div class="card-button">
+                            <button class="btn">Show Details</button>
+                            
+                        </div>
+                </div>
+                 <!-- card -->
+                 <div class="card">
+                    <div class="card-image">
+                        <img src="./assets/iPhone.jpg" alt="iphone-image">
+
+                    </div>
+
+                    <h3 class="card-title">iPhone 15 Pro Max</h3>
+                    <p class="card-description">
+                        there ara many variations of passages of avialable, but the majority have suffered.   
+                    </p>
+
+                    <div class="card-price">
+                        <span>$</span>
+                        <span id="card-item-price">999</span>
+                    </div>
+                        <div class="card-button">
+                            <button class="btn">Show Details</button>
+                            
+                        </div>
+                </div>
+                 <!-- card -->
+                 <div class="card">
+                    <div class="card-image">
+                        <img src="./assets/iPhone.jpg" alt="iphone-image">
+
+                    </div>
+
+                    <h3 class="card-title">iPhone 15 Pro Max</h3>
+                    <p class="card-description">
+                        there ara many variations of passages of avialable, but the majority have suffered.   
+                    </p>
+
+                    <div class="card-price">
+                        <span>$</span>
+                        <span id="card-item-price">999</span>
+                    </div>
+                        <div class="card-button">
+                            <button class="btn">Show Details</button>
+                            
+                        </div>
+                </div>
+                 <!-- card -->
+                 <div class="card">
+                    <div class="card-image">
+                        <img src="./assets/iPhone.jpg" alt="iphone-image">
+
+                    </div>
+
+                    <h3 class="card-title">iPhone 15 Pro Max</h3>
+                    <p class="card-description">
+                        there ara many variations of passages of avialable, but the majority have suffered.   
+                    </p>
+
+                    <div class="card-price">
+                        <span>$</span>
+                        <span id="card-item-price">999</span>
+                    </div>
+                        <div class="card-button">
+                            <button class="btn">Show Details</button>
+                            
+                        </div>
+                </div>
+                 <!-- card -->
+                 <div class="card">
+                    <div class="card-image">
+                        <img src="./assets/iphone black.jpeg" alt="iphone-image">
+
+                    </div>
+
+                    <h3 class="card-title">iPhone 15 Pro Max</h3>
+                    <p class="card-description">
+                        there ara many variations of passages of avialable, but the majority have suffered.   
+                    </p>
+
+                    <div class="card-price">
+                        <span>$</span>
+                        <span id="card-item-price">999</span>
+                    </div>
+                        <div class="card-button">
+                            <button class="btn">Show Details</button>
+                            
+                        </div>
+                </div>
+
+                 <!-- card -->
+                 <div class="card">
+                    <div class="card-image">
+                        <img src="./assets/iphone image.jpg" alt="iphone-image">
+
+                    </div>
+
+                    <h3 class="card-title">iPhone 15 Pro Max</h3>
+                    <p class="card-description">
+                        there ara many variations of passages of avialable, but the majority have suffered.   
+                    </p>
+
+                    <div class="card-price">
+                        <span>$</span>
+                        <span id="card-item-price">999</span>
+                    </div>
+                        <div class="card-button">
+                            <button class="btn">Show Details</button>
+                            
+                        </div>
+                </div>
+
+             </section>
+
+           </section>
+    </main>
+
+    <script src="./js/store.js"></script>
+
+    <footer class="footer" >
+        <div class="container" >
+            <div class="row">
+                <div class="footer-col">
+                    <h4>Apple Store in Bangladesh</h4>
+                    <ul>
+                        <li><a href="#">about us</a></li>
+                        <li><a href="#">our services</a></li>
+                        <li><a href="#">privacy policy</a></li>
+                        <li><a href="#">affiliate program</a></li>
+                    </ul>
+                </div>
+                <div class="footer-col">
+                    <h4>Help Desk</h4>
+                    <ul>
+                        <li><a href="#">FAQ</a></li>
+                        <li><a href="#">shipping</a></li>
+                        <li><a href="#">returns</a></li>
+                        <li><a href="#">order status</a></li>
+                        <li><a href="#">payment options</a></li>
+                    </ul>
+                </div>
+                <div class="footer-col">
+                    <h4>Online Shopping</h4>
+                    <ul>
+                        <li><a href="#">phone</a></li>
+                        <li><a href="#">watch</a></li>
+                        <li><a href="#">glass protector</a></li>
+                        <li><a href="#">gadget accessories</a></li>
+                        <li><a href="#">Charger and cable</a></li>
+                    </ul>
+                </div>
+                <div class="footer-col">
+                    <h4>Follow us</h4>
+                    <div class="social-links">
+                        <a href="#"><i class="fab fa-facebook-f"></i></a>
+                        <a href="#"><i class="fab fa-instagram"></i></a>
+                        <a href="#"><i class="fab fa-twitter"></i></a>
+                        <a href="#"><i class="fab fa-linkedin-in"></i></a>
+                        
+                    </div>
+                </div>
+            </div>
+        </div>
+    </footer>
+</body>
+</html>
